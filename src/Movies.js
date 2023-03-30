@@ -1,10 +1,9 @@
 import React from "react";
 import { useGlobalContext } from "./context";
-import { Link } from "react-router-dom";
 import "./index.css";
 
-const url =
-  "https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png";
+// const url =
+//   "https://upload.wikimedia.org/wikipedia/commons/f/fc/No_picture_available.png";
 
 const Movies = () => {
   const {
@@ -23,7 +22,7 @@ const Movies = () => {
     return <div className="loading"></div>;
   }
   return (
-    <section className="flex bg-gray-200">
+    <section className="bg-gray-200 height-3/4">
         <div className="bg-gray-500 p-4 h-3/4 w-full">
           <img src={image} alt={showName} />
           <div className="mt-4">
