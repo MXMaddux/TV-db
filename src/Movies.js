@@ -24,7 +24,7 @@ const Movies = () => {
   }
   return (
     <section className="flex bg-gray-200">
-        <div className="bg-gray-500 p-4 h-3/4">
+        <div className="bg-gray-500 p-4 h-3/4 w-full">
           <img src={image} alt={showName} />
           <div className="mt-4">
             <p className="text-base text-white">
