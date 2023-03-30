@@ -298,6 +298,12 @@ Single Movie
   text-align: left
 }
 
+.gray-div {
+  height: 700px;
+  overflow-y: auto;
+  max-width: 600px;
+}
+
 
 @tailwind base;
 @tailwind components;
