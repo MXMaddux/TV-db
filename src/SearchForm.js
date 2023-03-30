@@ -11,7 +11,7 @@ const SearchForm = () => {
         <h2 className="text-teal-400 text-l mr-8">Enter Show: </h2>
         <input
           type="text"
-          className="w-5/6"
+          className="w-full"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />

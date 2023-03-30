@@ -304,6 +304,10 @@ Single Movie
   max-width: 600px;
 }
 
+.main-div {
+  margin: auto;
+}
+
 
 @tailwind base;
 @tailwind components;
