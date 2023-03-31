@@ -300,17 +300,21 @@ Single Movie
 
 .gray-div {
   width: 75%;
+  margin: auto;
+  box-sizing: border-box;
 }
 
 .main-div {
   margin: auto;
   width: 100%;
-  padding: 20px;
+  padding: 40px;
   overflow-x: hidden;
+  position: relative;
 }
 
 .input {
-  width: auto;
+  width: 75%;
+
 }
 
 
