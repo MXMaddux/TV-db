@@ -27,24 +27,24 @@ const Movies = () => {
           <img src={image} alt={showName} />
           <div className="mt-4">
             <p className="text-base text-white">
-              <span className="text-teal-300 text-l mr-2">Title: </span>
+              <span className="text-teal-300 mr-2">Title: </span>
               {showName}
             </p>
             <p className="text-base text-white">
-              <span className="text-teal-300 text-l mr-2">Summary: </span>
+              <span className="text-teal-300 mr-2">Summary: </span>
               {summary}
             </p>
             <p className="text-base text-white">
-              <span className="text-teal-300 text-l mr-2">Premier Date: </span>
+              <span className="text-teal-300 mr-2">Premier Date: </span>
               {premierDate}
             </p>
             <p className="text-base text-white">
-              <span className="text-teal-300 text-l mr-2">End Date: </span>
+              <span className="text-teal-300 mr-2">End Date: </span>
               {endDate}
             </p>
           </div>
           <div>
-            <span className="text-teal-300 text-l mr-2"> Genres: </span>
+            <span className="text-teal-300 mr-2"> Genres: </span>
             {genres.map((gen, index) => {
               return (
                 <div className="items-center">

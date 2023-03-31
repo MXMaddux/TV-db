@@ -8,7 +8,7 @@ const SearchForm = () => {
 
     <form className="bg-gray-500" onSubmit={(e) => e.preventDefault()}>
       <div className="flex p-4 items-center justify-start">
-        <h2 className="text-teal-400 text-l mr-8">Enter Show: </h2>
+        <h3 className="text-teal-400 mr-8">Enter Show: </h3>
         <input
           type="text"
           className="input"

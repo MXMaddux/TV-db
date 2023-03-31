@@ -304,7 +304,9 @@ Single Movie
 
 .main-div {
   margin: auto;
-  width: max-content;
+  width: 100%;
+  padding: 20px;
+  overflow-x: hidden;
 }
 
 .input {
