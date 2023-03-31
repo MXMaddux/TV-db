@@ -7,11 +7,11 @@ const SearchForm = () => {
   return (
 
     <form className="bg-gray-500" onSubmit={(e) => e.preventDefault()}>
-      <div className="flex p-4 items-center justify-between">
+      <div className="flex p-4 items-center justify-start">
         <h2 className="text-teal-400 text-l mr-8">Enter Show: </h2>
         <input
           type="text"
-          className="w-full"
+          className="input"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />

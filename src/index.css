@@ -299,13 +299,16 @@ Single Movie
 }
 
 .gray-div {
-  height: 700px;
-  overflow-y: auto;
-  max-width: 600px;
+  width: 75%;
 }
 
 .main-div {
   margin: auto;
+  width: max-content;
+}
+
+.input {
+  width: auto;
 }
 
 
